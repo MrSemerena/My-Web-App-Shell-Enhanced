@@ -1,0 +1,21 @@
+.outterContainer {
+    padding: 5px;
+    border: 1.5px solid #b6b6b6;
+    box-sizing: content-box;
+}
+
+div.container {
+    color: #eeeeee;
+    margin-bottom: 10px;
+}
+
+div.container > div {
+    height: 220px;
+    width: 220px;
+    background-color: #754cdb;
+    border-radius: 35;
+}
+
+.example-sidenav {
+    height: 100vH;
+}

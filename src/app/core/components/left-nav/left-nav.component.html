@@ -1,0 +1,52 @@
+<!-----------------------------------------     Left Nav Section Starts          -------------------------------->
+<mat-drawer-container class="example-container" autosize color="primary">
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+      <p>Auto-resizing sidenav</p>
+    </mat-drawer>
+  
+    <div class="example-sidenav-content" (click)="drawer.toggle()">
+      <label for="">
+        <h2>
+            Home:
+        </h2>
+      </label>
+        <!-----------------------------------------     Cards Shell Section Starts      -------------------------------->
+        <div class="outterContainer">
+            <div fxLayout="row" fxLayoutGap="10px" class="container">
+                <div fxLayoutAlign="center center">
+                    <mat-card color="primary">
+                        <mat-card-title>Devil Artimus Universe</mat-card-title>
+                        <mat-card-subtitle>¡Conoce a Cell Perfecto y Kermit La Rana!</mat-card-subtitle>
+                        <mat-card-content>
+                            Se trata de un canal de YouTube que se dedica a producir paródias cómicas con personajes de animación diversos como Dragon Ball y Los Muppets.
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+                <div fxLayoutAlign="center center">
+                    <mat-card color="primary">
+                        <mat-card-title>The MGTOW/Red Pill Bar</mat-card-title>
+                        <mat-card-subtitle>¡Bienvenido! Agarra una cerveza y siéntate</mat-card-subtitle>
+                        <mat-card-content>
+                            Esta sección es para explicar las filosofías MGTOW y Red Pill. Enfocadas en la audiencia masculina. Además de traer contenido de este tipo.
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+                <div fxLayoutAlign="center center">
+                    <mat-card color="primary">
+                        <mat-card-title>The Horror Vault</mat-card-title>
+                        <mat-card-subtitle>¿Estás listo para un Buen Susto?</mat-card-subtitle>
+                        <mat-card-content>
+                            Esta sección de la página se encuentra enfocada en el género Slasher de las películas de horror de los 80's, 90's y principios del 2000. Vamos a traer la información de los directores, las pelñiculas y los personajes.
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+                <div fxLayoutAlign="center center">Fourth Box</div>
+                <div fxLayoutAlign="center center">Fifth Box</div>
+             </div>
+        </div>
+        <!-----------------------------------------     Cards Shell Section Ends        -------------------------------->
+
+    </div>
+  
+  </mat-drawer-container>
+<!-----------------------------------------     Left Nav Section Ends           -------------------------------->
