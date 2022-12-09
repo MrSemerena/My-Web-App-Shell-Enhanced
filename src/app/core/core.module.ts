@@ -14,6 +14,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { FooterComponent } from './components/footer/footer.component';
 import {  MatSidenavModule  } from '@angular/material/sidenav';
 import {  MatCardModule } from '@angular/material/card';
+import {  MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import {  MatCardModule } from '@angular/material/card';
     GridModule,
     FlexLayoutModule,
     MatSidenavModule,
-    MatCardModule
+    MatCardModule,
+    MatListModule
   ],
   exports: [
     ToolBarComponent,
