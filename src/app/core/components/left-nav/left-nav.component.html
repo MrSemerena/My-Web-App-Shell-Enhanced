@@ -1,52 +1,104 @@
 <!-----------------------------------------     Left Nav Section Starts          -------------------------------->
 <mat-drawer-container class="example-container" autosize color="primary">
     <mat-drawer #drawer class="example-sidenav" mode="side">
-      <p>Auto-resizing sidenav</p>
+      <h2>
+        Home
+      </h2>
+    </mat-drawer>
+
+    <div class="example-sidenav-content" (click)="drawer.toggle()">
+        <label for="">
+            <div fxLayoutAlign="center center">
+                <h2>
+                    Home:
+                </h2>
+            </div>
+        </label>
+          <!-----------------------------------------     Cards Shell Section Starts      -------------------------------->
+          <div class="outterContainer">
+              <div fxLayout="row" fxLayoutGap="0.25cm" class="container" fxLayoutAlign="center center">
+                  <div fxLayoutAlign="center center">
+                      <mat-card color="primary">
+                          <mat-card-title>Devil Artimus Universe</mat-card-title>
+                          <mat-card-subtitle>¡Conoce a Cell Perfecto y Kermit La Rana!</mat-card-subtitle>
+                          <mat-card-content>
+                              Se trata de un canal de YouTube que se dedica a producir paródias cómicas con personajes de animación diversos como Dragon Ball y Los Muppets.
+                          </mat-card-content>
+                      </mat-card>
+                  </div>
+                  <div fxLayoutAlign="center center">
+                      <mat-card color="primary">
+                          <mat-card-title>The MGTOW/Red Pill Bar</mat-card-title>
+                          <mat-card-subtitle>¡Bienvenido! Agarra una cerveza y siéntate</mat-card-subtitle>
+                          <mat-card-content>
+                              Esta sección es para explicar las filosofías MGTOW y Red Pill. Enfocadas en la audiencia masculina. Además de traer contenido de este tipo.
+                          </mat-card-content>
+                      </mat-card>
+                  </div>
+                  <div fxLayoutAlign="center center">
+                      <mat-card color="primary">
+                          <mat-card-title>The Horror Vault</mat-card-title>
+                          <mat-card-subtitle>¿Estás listo para un Buen Susto?</mat-card-subtitle>
+                          <mat-card-content>
+                              Esta sección de la página se encuentra enfocada en el género Slasher de las películas de horror de los 80's, 90's y principios del 2000.
+                          </mat-card-content>
+                      </mat-card>
+                  </div>
+                  <div fxLayoutAlign="center center">
+                      <mat-card color="primary">
+                          <mat-card-title>Digital Content Central</mat-card-title>
+                          <mat-card-subtitle>¿Quieres crear Contenido Digital que atraiga?</mat-card-subtitle>
+                          <mat-card-content>
+                              Aquí te explicaremos como crear Contenido Digital que llame la atención del público y posicione tu empresa o marca.
+                          </mat-card-content>
+                      </mat-card>
+                  </div>
+                  <div fxLayoutAlign="center center">
+                      <mat-card color="primary">
+                          <mat-card-title>Web Development and Design Training Camp</mat-card-title>
+                          <mat-card-subtitle>Aqui te mostramos las técnicas y secretos</mat-card-subtitle>
+                          <mat-card-content>
+                              Te mostraremos como crear, diseñlar e implementar sitios web bonitos y funcionales para posicionar tus marcas.
+                          </mat-card-content>
+                      </mat-card>
+                  </div>
+               </div>
+            </div>
+          <!-----------------------------------------     Cards Shell Section Ends        -------------------------------->
+  
+    </div>
+
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+        <h2>
+          Devil Artimus Universe
+        </h2>
+    </mat-drawer>
+
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+        <h2>
+          The MGTOW/Red Pill Bar
+        </h2>
+    </mat-drawer>
+
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+        <h2>
+          The Horror Vault
+        </h2>
+    </mat-drawer>
+
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+        <h2>
+          Digital Content Central
+        </h2>
+    </mat-drawer>
+
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+        <h2>
+          Web Development and Design Training Camp
+        </h2>
     </mat-drawer>
   
-    <div class="example-sidenav-content" (click)="drawer.toggle()">
-      <label for="">
-        <h2>
-            Home:
-        </h2>
-      </label>
-        <!-----------------------------------------     Cards Shell Section Starts      -------------------------------->
-        <div class="outterContainer">
-            <div fxLayout="row" fxLayoutGap="0.25cm" class="container">
-                <div fxLayoutAlign="center center">
-                    <mat-card color="primary">
-                        <mat-card-title>Devil Artimus Universe</mat-card-title>
-                        <mat-card-subtitle>¡Conoce a Cell Perfecto y Kermit La Rana!</mat-card-subtitle>
-                        <mat-card-content>
-                            Se trata de un canal de YouTube que se dedica a producir paródias cómicas con personajes de animación diversos como Dragon Ball y Los Muppets.
-                        </mat-card-content>
-                    </mat-card>
-                </div>
-                <div fxLayoutAlign="center center">
-                    <mat-card color="primary">
-                        <mat-card-title>The MGTOW/Red Pill Bar</mat-card-title>
-                        <mat-card-subtitle>¡Bienvenido! Agarra una cerveza y siéntate</mat-card-subtitle>
-                        <mat-card-content>
-                            Esta sección es para explicar las filosofías MGTOW y Red Pill. Enfocadas en la audiencia masculina. Además de traer contenido de este tipo.
-                        </mat-card-content>
-                    </mat-card>
-                </div>
-                <div fxLayoutAlign="center center">
-                    <mat-card color="primary">
-                        <mat-card-title>The Horror Vault</mat-card-title>
-                        <mat-card-subtitle>¿Estás listo para un Buen Susto?</mat-card-subtitle>
-                        <mat-card-content>
-                            Esta sección de la página se encuentra enfocada en el género Slasher de las películas de horror de los 80's, 90's y principios del 2000.
-                        </mat-card-content>
-                    </mat-card>
-                </div>
-                <div fxLayoutAlign="center center">Fourth Box</div>
-                <div fxLayoutAlign="center center">Fifth Box</div>
-             </div>
-        </div>
-        <!-----------------------------------------     Cards Shell Section Ends        -------------------------------->
-
-    </div>
+    
   
   </mat-drawer-container>
 <!-----------------------------------------     Left Nav Section Ends           -------------------------------->
